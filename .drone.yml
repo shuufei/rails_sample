@@ -1,7 +1,7 @@
 build:
   image: node
-  commands: |
-    echo "rails sample"
-    echo $DRONE_DIR
-    echo $DRONE_TAG
-    echo "end"
+  commands:
+    - echo "rails sample"
+    - echo $DRONE_DIR
+    - echo $DRONE_TAG
+    - echo "end"
